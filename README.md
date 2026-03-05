@@ -1,3 +1,5 @@
+# Run on your browser
+
 ```bash
 npm run dev
 ```
@@ -14,5 +16,21 @@ cd /Users/Username-here/Downloads/LoFIWeB/server && npm run dev
 ```
 For windows:
 ```bash
-cd "C:\Users\Usrnme\Downloads\LoFIWeB\server"
+cd "C:\Users\Usrnme\Downloads\LoFIWeB\server && npm run dev"
+```
+# Npm Download CMD
+
+-# Windows:
+```bash
+winget install OpenJS.NodeJS.LTS
+```
+
+-# Mac:
+1. Install HomeBrew
+ ```bash
+ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ ```
+2. Install Npm
+```bash
+ brew install node
 ```
